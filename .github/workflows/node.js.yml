@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
 
     - name: Setup Chrome
-      uses: browser-actions/setup-chrome@v4
+      uses: browser-actions/setup-chrome@v1
       with:  
         chrome-version: 'latest'
         install-chromedriver: true  
