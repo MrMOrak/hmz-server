@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+iframe {
+  border: none; /* remove border */
+  width: 100%; /* take up full width */
+  height: 100%; /* take up full height */
+}
